@@ -1,8 +1,34 @@
 {
   "projectName": "curriculumDebby",
   "projectPath": "C:\\Users\\pietr\\OneDrive\\Desktop\\curriculumDebby",
-  "updatedAt": "2026-10-13T14:10:16.386Z",
+  "updatedAt": "2026-10-13T16:38:25.020Z",
   "nodes": [
+    {
+      "id": "proj_step_1791909311146",
+      "scope": "project",
+      "type": "step",
+      "label": "Passo: Modifica completata e verificata",
+      "value": "Eseguito: Modifica completata e verificata. File coinvolti: script.js",
+      "tags": [
+        "passaggio",
+        "sviluppo",
+        "progresso"
+      ],
+      "synapses": [
+        {
+          "targetId": "proj_code_script_js",
+          "label": "ha modificato",
+          "strength": 0.85
+        },
+        {
+          "targetId": "proj_node_root",
+          "label": "avanzamento",
+          "strength": 0.7
+        }
+      ],
+      "createdAt": "2026-10-13T16:35:11.146Z",
+      "updatedAt": "2026-10-13T16:35:11.146Z"
+    },
     {
       "id": "proj_step_1791900271612",
       "scope": "project",
@@ -565,13 +591,13 @@
       "scope": "project",
       "type": "data",
       "label": "Mappa del codice",
-      "value": "- generate-pdf.js (js, 222 righe) -> funzioni: generatePDF | variabili: puppeteer, path, fs\n- index.html (html, 387 righe) -> id: nav-menu, home, generate-pdf-btn, about, experience, education, skills, technical-skills, soft-skills, languages, contact, icon-linkedin\n- script.js (js, 742 righe)\n- styles.css (css, 1670 righe)\nCollegamenti fra file:\n  index.html --[include]--> styles.css\n  index.html --[include]--> script.js",
+      "value": "- generate-pdf.js (js, 222 righe) -> funzioni: generatePDF | variabili: puppeteer, path, fs\n- index.html (html, 387 righe) -> id: nav-menu, home, generate-pdf-btn, about, experience, education, skills, technical-skills, soft-skills, languages, contact, icon-linkedin\n- script.js (js, 735 righe)\n- styles.css (css, 1670 righe)\nCollegamenti fra file:\n  index.html --[include]--> styles.css\n  index.html --[include]--> script.js",
       "tags": [
         "analisi",
         "mappa"
       ],
       "synapses": [],
-      "updatedAt": "2026-10-13T14:10:16.384Z"
+      "updatedAt": "2026-10-13T16:38:25.017Z"
     },
     {
       "id": "proj_code_styles_css",
@@ -599,7 +625,7 @@
       "scope": "project",
       "type": "data",
       "label": "script.js",
-      "value": "[script.js] Script JavaScript/TypeScript: 742 righe. Metodi (25): createElement, debounce, initMobileNav, initSmoothScroll, initActiveNav, initHeaderScroll, initScrollAnimations, renderSkills, initTypingAnimation, type.... Ultima modifica: 13:53:08",
+      "value": "[script.js] Script JavaScript/TypeScript: 735 righe. Metodi (25): createElement, debounce, initMobileNav, initSmoothScroll, initActiveNav, initHeaderScroll, initScrollAnimations, renderSkills, initTypingAnimation, type.... Ultima modifica: 18:35:11",
       "tags": [
         "codice",
         "js",
@@ -614,7 +640,7 @@
         }
       ],
       "createdAt": "2026-10-11T15:29:27.796Z",
-      "updatedAt": "2026-10-13T11:53:08.740Z"
+      "updatedAt": "2026-10-13T16:35:11.146Z"
     },
     {
       "id": "proj_code_package_json",
@@ -691,7 +717,7 @@
         "js"
       ],
       "synapses": [],
-      "updatedAt": "2026-10-13T14:10:16.386Z"
+      "updatedAt": "2026-10-13T16:38:25.020Z"
     },
     {
       "id": "mappa_index_html",
@@ -715,20 +741,20 @@
           "strength": 0.8
         }
       ],
-      "updatedAt": "2026-10-13T14:10:16.386Z"
+      "updatedAt": "2026-10-13T16:38:25.020Z"
     },
     {
       "id": "mappa_script_js",
       "scope": "project",
       "type": "data",
       "label": "script.js",
-      "value": "js, 742 righe. Nessun simbolo di primo livello.",
+      "value": "js, 735 righe. Nessun simbolo di primo livello.",
       "tags": [
         "mappa-codice",
         "js"
       ],
       "synapses": [],
-      "updatedAt": "2026-10-13T14:10:16.386Z"
+      "updatedAt": "2026-10-13T16:38:25.020Z"
     },
     {
       "id": "mappa_styles_css",
@@ -741,7 +767,7 @@
         "css"
       ],
       "synapses": [],
-      "updatedAt": "2026-10-13T14:10:16.386Z"
+      "updatedAt": "2026-10-13T16:38:25.020Z"
     }
   ]
 }
